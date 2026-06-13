@@ -1,0 +1,19 @@
+Run actions/checkout@v4
+Run actions/setup-node@v4
+Run cd backend && npm install
+added 168 packages, and audited 169 packages in 3s
+found 0 vulnerabilities
+Run cd frontend && npm install
+added 135 packages, and audited 136 packages in 2s
+found 0 vulnerabilities
+Run cd frontend && npm run build
+> frontend@0.0.0 build
+> vite build
+vite v5.2.0 building for production...
+✓ 34 modules transformed.
+dist/index.html                   0.46 kB │ gzip:  0.30 kB
+dist/assets/index-DiwrgTda.css    1.39 kB │ gzip:  0.72 kB
+dist/assets/index-l-gWp-Ua.js   143.36 kB │ gzip: 46.09 kB
+✓ built in 543ms
+Post job cleanup.
+Complete job
